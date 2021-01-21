@@ -1,0 +1,26 @@
+{
+  "name": "wpboxy-v1",
+  "version": "1.0.0",
+  "description": "Html Template for WordPress Theme",
+  "main": "index.js",
+  "scripts": {
+    "cs-watch": "sass scss/main.scss includes/css/style.css --watch --no-source-map",
+    "cs-compile": "sass scss/main.scss includes/css/style.css --no-source-map",
+    "cs-compress": "sass scss/main.scss includes/css/style.css --style=compressed --no-source-map",
+    "cs-prefix": "postcss css/style.css -o include/css/style.css --use autoprefixer -b 'last 4 versions' --no-source-map",
+    "cs-build": "npm-run-all cs-compile cs-compress cs-prefix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadcodes/WPBoxy-v1.git"
+  },
+  "author": "Sajjad Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajjadcodes/WPBoxy-v1/issues"
+  },
+  "homepage": "https://github.com/sajjadcodes/WPBoxy-v1#readme",
+  "dependencies": {
+    "create-scss": "^2.6.1"
+  }
+}
