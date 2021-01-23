@@ -125,7 +125,18 @@
 
 .category__list{
     &--item{
+        font-size: 14px;
+        font-weight: 300;
         display: flex;
         justify-content: space-between;
+        &:not(:last-child){
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color:#474747;
+            
+        }
+        
     }
 }
