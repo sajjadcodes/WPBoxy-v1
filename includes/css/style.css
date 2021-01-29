@@ -399,3 +399,16 @@ body {
       color: black; }
     .nav__list--item:not(:last-child) {
       margin-right: 50px; }
+
+.content__area {
+  background: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 200px; }
+
+.post__area {
+  background-color: chartreuse; }
+
+.widget__area {
+  background-color: coral; }
