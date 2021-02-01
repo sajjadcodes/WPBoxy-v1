@@ -466,6 +466,9 @@ body {
     padding: 1.4rem 3.2rem;
     border: 1px solid #474747;
     border-radius: 4px; }
+    .btn__loadMore:hover {
+      background-color: #474747;
+      color: #EBEBEB; }
 
 .content__area {
   display: flex;
@@ -473,7 +476,8 @@ body {
 
 .post__area {
   flex-basis: 64%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 6rem; }
   .post__area--single {
     border: 1px solid #EBEBEB;
     border-radius: 4px;

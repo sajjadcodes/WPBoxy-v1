@@ -26,5 +26,9 @@
         padding:1.4rem 3.2rem;
         border:1px solid $primary-color;
         border-radius: 4px; 
+        &:hover{
+            background-color: $primary-color;
+            color: $secondary-color;
+        }
     }
 }
