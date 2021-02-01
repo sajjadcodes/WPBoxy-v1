@@ -25,9 +25,15 @@
         overflow: hidden;
     }
     &--excerpt{
-        margin: 3rem;
+        padding: 3rem;
+       a{
+           margin-top:3rem;
+       }
     }
 
+}
+.post__meta{
+    margin: 15px 0;
 }
 
 // .post__area{
