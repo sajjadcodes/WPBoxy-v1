@@ -372,6 +372,24 @@ template {
 .p-large {
   padding: 6rem; }
 
+.my-small {
+  margin: 1.5rem 0; }
+
+.my-medium {
+  margin: 3rem 0; }
+
+.my-large {
+  margin: 6rem 0; }
+
+.m-small {
+  margin: 1.5rem; }
+
+.m-medium {
+  margin: 3rem; }
+
+.m-large {
+  margin: 6rem; }
+
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -388,6 +406,9 @@ body {
 
 .tertiary-heading {
   font-size: 2.3rem; }
+
+.quaternary-heading {
+  font-size: 2rem; }
 
 .container {
   max-width: 112.8rem;
@@ -418,18 +439,29 @@ body {
     .nav__list--item:not(:last-child) {
       margin-right: 50px; }
 
+.main__footer {
+  background-color: #474747;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  .main__footer--copyright {
+    color: white; }
+
 .content__area {
   display: flex;
   margin-top: 60px; }
 
 .post__area {
-  width: 64%;
-  overflow: hidden;
-  margin-right: 2rem; }
+  flex-basis: 64%;
+  overflow: hidden; }
   .post__area--single {
     border: 1px solid #EBEBEB;
     border-radius: 4px;
     margin-bottom: 3rem; }
-  .post__area--img {
+  .post__area--featured {
     width: 100%;
-    height: 400px; }
+    height: 40rem;
+    overflow: hidden; }
+  .post__area--excerpt {
+    margin: 3rem; }
